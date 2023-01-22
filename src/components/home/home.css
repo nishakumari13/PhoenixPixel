@@ -1,0 +1,18 @@
+.home-text{
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 6rem;
+    
+}
+.home-text p{
+    font-family: monospace;
+    margin-bottom: 2rem;
+    font-size: 1rem !important;
+}
+
+@media screen and (max-width: 1024px) {
+    .home-text{
+        width: 80%;
+    }
+}
