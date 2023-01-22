@@ -88,9 +88,9 @@ p{
     font-family: auto;
     margin: 0.5rem 0;
 }
-/* p{
-    margin-left: 5px;
-} */
+.info p{
+    font-size: 0.7rem;
+}
 .stars{
     font-size: 14px;
     font-weight: 300;

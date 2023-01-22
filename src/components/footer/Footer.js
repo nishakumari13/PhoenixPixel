@@ -50,11 +50,7 @@ const Footer = () => {
               size={25}
               style={{ color: "#fff", marginRight: "2rem", cursor: "pointer" }}
               className="leet-icons"
-              onClick={() =>
-                window.open(
-                  "https://www.facebook.com/profile.php?id=100089342196032"
-                )
-              }
+              onClick={() => window.open("https://wa.me/c/919771263727")}
             />
             <BsInstagram
               size={25}
