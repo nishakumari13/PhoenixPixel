@@ -21,7 +21,8 @@
     padding: 1rem;
     align-items: center;
     justify-content: center;
-    display: flex;
+    /* display: flex; */
+    margin: 0 auto;
 }
 
 .location{

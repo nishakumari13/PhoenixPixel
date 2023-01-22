@@ -17,7 +17,7 @@ const About = () => {
       <section id="about">
         <section id="about">
           <h5>Get to know</h5>
-          <h2>About me</h2>
+          <h2>About Us</h2>
 
           <div className="container about_container">
             <div className="about_me">

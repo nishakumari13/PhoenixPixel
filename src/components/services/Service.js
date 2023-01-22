@@ -11,7 +11,7 @@ const Service = () => {
       <Navbar />
       <HeroImg2 />
       <section id="services">
-        <h5>What I offer</h5>
+        {/* <h5>What We offer</h5> */}
         <h2>Services</h2>
 
         <div className="container services_container">
@@ -73,7 +73,7 @@ const Service = () => {
               </li>
               <li>
                 <TiTickOutline className="services_list_icon" />
-                <p>Advertisement run over on Insta & Facebook</p>
+                <p>Ads run over on Insta & fb</p>
               </li>
               {/* <li>
                 <TiTickOutline className="services_list_icon" />
