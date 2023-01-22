@@ -6,6 +6,8 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFacebook } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
+import { AiOutlineStar } from "react-icons/ai";
+import { AiOutlineCopyrightCircle } from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -65,7 +67,7 @@ const Footer = () => {
               }
             />
             <HiOutlineMail
-              size={25}
+              size={30}
               style={{ color: "#fff", marginRight: "2rem", cursor: "pointer" }}
               className="mail-icons"
               onClick={() =>
@@ -75,6 +77,18 @@ const Footer = () => {
               }
             />
           </div>
+        </div>
+      </div>
+      <div className="copyright">
+        <div className="info">
+          Designed & Built by Pheonix Pixel Technologies
+        </div>
+        <div className="info">
+          <AiOutlineCopyrightCircle />
+          <p>2023 All Rights Reserved</p>
+        </div>
+        <div className="stars">
+          <AiOutlineStar />
         </div>
       </div>
     </div>

@@ -77,6 +77,12 @@
     }
   }
   @media screen and (max-width: 600px) {
+    .contact_options{
+      width: 50%;
+    }
+    .contact_option{
+      padding: 0.5rem;
+    }
     .container.contact_container {
       width: var(--continer-width-sm);
       gap: 2rem;

@@ -29,7 +29,15 @@
     display: flex;
     margin-bottom: 1.5rem;
 }
-
+.mail-icons:hover{
+    color: lightseagreen;
+}
+.code-icons:hover{
+    color: lightseagreen;
+}
+.leet-icons:hover{
+    color: lightseagreen;
+}
 .location p{
     line-height: 30px;
 }
@@ -63,6 +71,32 @@ h4{
 p{
     font-size: 1rem;
     font-family: monospace;
+}
+.copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7rem;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--content);
+    font-family: auto;
+    margin: 0.5rem 0;
+}
+/* p{
+    margin-left: 5px;
+} */
+.stars{
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--light-color);
+    font-family: auto;
+    margin: 0.5rem 0;
 }
 
 @media screen and (max-width: 640px) {
